@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: mvn clean install
+    command: mvn test
+
+vscode:
+  extensions:
+    - redhat.java
+    - vscjava.vscode-java-pack
